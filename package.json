@@ -1,8 +1,8 @@
 {
-  "name": "generate-entity-codes",
-  "displayName": "Generate Entity Codes",
+  "name": "entity-generator",
+  "displayName": "Entity Generator",
   "description": "Generate entity service and page codes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -14,6 +14,10 @@
     "lint": "eslint src --ext ts",
     "test": "vscode-test",
     "pack": "vsce package"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:farhad-metafactory/vsc-extension-entity-generator.git"
   },
   "categories": [
     "Other"
